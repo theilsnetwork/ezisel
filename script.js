@@ -3,7 +3,8 @@
 
 $('body').vegas({
   overlay: true,
-  transition: 'random', 
+  preloadImage: true,
+  transition: 'random',
   transitionDuration: 4000,
   delay: 10000,
   color: 'red',
